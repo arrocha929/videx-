@@ -1,0 +1,66 @@
+body {
+    color: white;
+    background: black;
+
+    margin:0px;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 3px blue;
+    padding: 20px;
+    font-size: 34px;
+    color:rgb(226, 241, 9);
+    font-family: "Bungee Spice", sans-serif;
+   }
+
+.chamada {
+    background: rgb(140, 140, 221);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 30px;
+    
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+img {
+height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-videos img {
+    opacity: 0.3;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid greenyellow;
+}
+
+.categoria h2 {
+    font-size: 34px;
+    color:rgb(226, 241, 9);
+    font-family: "Bungee Spice", sans-serif;
+}
